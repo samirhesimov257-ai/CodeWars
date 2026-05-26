@@ -1,18 +1,46 @@
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String word="slam";
-        int x=word.length()/2;
-        if (word.length()%2!=0){
-            System.out.println(word.charAt(x)+"");
-        }else System.out.println(word.charAt(x-1)+""+word.charAt(x));
+        String s="abc";
+
+        for (int i=0;i<s.length();i++){
+
+        }
 
 
+
+
+        /*
+        verilmis stringlerin birlesdirerek yeni unikal string alinmasi
+         */
+//        var list=new  TreeSet<Character>();
+//        String s1="absed";
+//        String s2="abed";
+//
+//        for (char ch:s1.toCharArray()){
+//            list.add(ch);
+//        }
+//        for (char ch:s2.toCharArray()){
+//            list.add(ch);
+//        }
+//        StringBuilder word= new StringBuilder();
+//        for (Character a:list){
+//            word.append(a);
+//        }
+//        System.out.println(word.toString());
+
+
+//        /*
+//        verilmis soz tek saylidisa ortadaki herfi, cut saydadisa ortadaki 2 herfide gotur
+//         */
+//        String word="slam";
+//        int x=word.length()/2;
+//        if (word.length()%2!=0){
+//            System.out.println(word.charAt(x)+"");
+//        }else System.out.println(word.charAt(x-1)+""+word.charAt(x));
 
 
 //        /*
@@ -29,7 +57,6 @@ public class Main {
 //        }
 //        if (oddList.size()<2) System.out.println(oddList.getFirst());
 //        else System.out.println(evenList.getFirst());
-
 
 
 //
