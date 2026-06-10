@@ -4,12 +4,45 @@ import java.util.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String s="abc";
 
-        for (int i=0;i<s.length();i++){
 
-        }
 
+
+        /*
+        cumlenin pangram oldugunu yoxla
+         */
+//        String sentence="The quick brown fox jumps over the lazy dog.";
+//        for (char abc = 'a'; abc<='z'; abc++){
+//            String a= sentence.toLowerCase();
+//            if (!a.contains(""+abc)){
+//                System.out.println("bu pangram deyil");
+//                break;
+//            }if (abc=='z'){
+//                System.out.println("bu pangramdir");
+//            }
+//        }
+
+
+
+        /*
+        Boyuk herflere gore ayir
+         */
+//        Scanner sc= new Scanner(System.in);
+//        String input= sc.nextLine();//samirHashimov
+//        System.out.println(  input.replaceAll("([A-Z])", " $1"));
+//        int indexA=0;
+//        int indexB=0;
+//        StringBuilder a=new StringBuilder();
+//        for (int i=1;i<input.length();i++){
+//            if (Character.isUpperCase(input.charAt(i))){
+//                indexA=indexB;
+//                indexB=i;
+//                a.append(input.substring(indexA, indexB)).append(" ");
+//            }
+//
+//        }
+//        a.append(input.substring(indexB));
+//        System.out.println(a);
 
 
 
